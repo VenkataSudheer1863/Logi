@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E31837"/>
+      <stop offset="100%" stop-color="#9B0F25"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.18)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="rgba(0,0,0,0.25)"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- Subtle top shine -->
+  <rect width="64" height="32" rx="14" fill="url(#shine)"/>
+
+  <!-- "LF" lettermark — L bar + F bar sharing a vertical stem -->
+  <!-- Vertical stem -->
+  <rect x="13" y="14" width="9" height="36" rx="2.5" fill="white"/>
+  <!-- L horizontal foot -->
+  <rect x="13" y="41" width="20" height="9" rx="2.5" fill="white"/>
+  <!-- F top bar -->
+  <rect x="28" y="14" width="23" height="9" rx="2.5" fill="white"/>
+  <!-- F mid bar -->
+  <rect x="28" y="27" width="17" height="8" rx="2.5" fill="white"/>
+
+  <!-- AI spark dot — top right accent -->
+  <circle cx="52" cy="13" r="5.5" fill="white" opacity="0.22"/>
+  <circle cx="52" cy="13" r="3" fill="white"/>
+</svg>

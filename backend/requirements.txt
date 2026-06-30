@@ -1,0 +1,45 @@
+# Core
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-multipart
+email-validator
+
+# Database
+sqlalchemy
+alembic
+aiosqlite
+
+# Auth
+python-jose[cryptography]
+bcrypt==4.1.3
+
+# AI / LLM
+groq
+langchain
+langchain-groq
+langgraph
+langchain-community
+
+# ML / Forecasting
+scikit-learn
+prophet
+numpy
+pandas
+
+# Computer Vision / OCR
+opencv-python-headless
+pytesseract
+Pillow
+
+# Optimization
+ortools
+
+# Utilities
+httpx
+python-dotenv
+loguru
+websockets
+aiofiles
+faker
